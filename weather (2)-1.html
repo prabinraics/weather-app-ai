@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class= " weather-card">
+        <div class="search-box">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button id="searchbtn">search</button>
+        </div>
+        <div class="date-time">
+            <p class="day"></p>
+            <p class="date"></p>
+        </div>
+        <div class="weather-info">
+            <img class="weathericon" src="" alt="Weather Icon">
+            <p class="condition"></p>
+            <p class="temperature"></p>
+            <h2 class="city"></h2>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div>
+                        <span id="humidity"></span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <span id="wind"></span>
+                        <p>Wind Speed</p>
+                    </div>
+                    <div>  
+                        <i class="fa-solid fa-location-arrow" id="direction-icon"></i>  
+                        <span id="direction"></span>
+                        <p>Direction</p>
+                    </div>
+                </div>
+                <div class="pressure">
+                    <i class="fa-solid fa-tachometer-alt"></i>
+                    <div>
+                        <span id="pressure"></span>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</body>
+</html>

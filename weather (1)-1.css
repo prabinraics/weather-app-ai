@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box ;
+    border:none;
+    outline: none; 
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/1472560341/photo/majestic-dark-cloud-and-sky.jpg?s=612x612&w=0&k=20&c=_olzT1SE8YX6dOsddY_xr8U2NXJVJEeQWkAyVSkWL8Y=');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    position: relative;
+}
+.weather-card{
+    width: 400px;
+    min-height: 60vh;
+    max-width: 470px;
+    background:  linear-gradient(135deg, #2c3e50, #5f9ea0);
+    color :white;
+    margin: 100px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box input{
+    background: #ebfffc;
+    color: #555;
+    padding: 12px 18px;
+    width:85%;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+#searchbtn{
+background: #e6f5fb;
+border-radius: 50%;
+width: 55px;
+height: 55px;
+cursor: pointer;
+}
+#searchbtn:hover{
+    color:#fff;
+    background-color: #ababab;
+}
+.weathericon{
+    width: 170px;
+    margin: 30px;
+}
+.weather p{
+    font-size: 90px;
+    font-weight: 550;
+}
+.weather h2{
+    font-size: 90px;
+    font-weight: 450;
+    margin-top: -15px;
+}
+.weather-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-top: 40px;
+    width:100%;
+}
+.humidity,.wind{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+}
+.humidity{
+    margin-right: 15px;
+}
+.wind{
+    margin-left:15px;   
+}
+
